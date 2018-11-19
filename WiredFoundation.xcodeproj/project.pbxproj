@@ -20,7 +20,6 @@
 		4CE9F1A421A32872006E81C7 /* NSDateComponents-WIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE9F15F21A3286E006E81C7 /* NSDateComponents-WIFoundation.h */; };
 		4CE9F1A521A32872006E81C7 /* WIMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE9F16021A3286E006E81C7 /* WIMacros.h */; };
 		4CE9F1A721A32872006E81C7 /* NSFileManager-WIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE9F16221A3286E006E81C7 /* NSFileManager-WIFoundation.h */; };
-		4CE9F1A821A32872006E81C7 /* WiredFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE9F16321A3286E006E81C7 /* WiredFoundation.h */; };
 		4CE9F1A921A32872006E81C7 /* NSLocale-WIFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9F16421A3286E006E81C7 /* NSLocale-WIFoundation.m */; };
 		4CE9F1AA21A32872006E81C7 /* NSDate-WIFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9F16521A3286E006E81C7 /* NSDate-WIFoundation.m */; };
 		4CE9F1AB21A32872006E81C7 /* NSLocale-WIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE9F16621A3286E006E81C7 /* NSLocale-WIFoundation.h */; };
@@ -71,6 +70,7 @@
 		4CE9F1DE21A32872006E81C7 /* NSData-WIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE9F19921A32872006E81C7 /* NSData-WIFoundation.h */; };
 		4CE9F1E121A328EA006E81C7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE9F1DF21A328EA006E81C7 /* Localizable.strings */; };
 		4CE9F1EB21A3294C006E81C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE9F1EA21A3294C006E81C7 /* Cocoa.framework */; };
+		4CE9F1F821A32F90006E81C7 /* WiredFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4CE9F1F721A32F90006E81C7 /* WiredFoundation.podspec */; };
 		EE03CBC9BA4F63CE0E92FB7E /* Pods_WiredFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C664552CFA94EE4338A7516D /* Pods_WiredFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +90,6 @@
 		4CE9F15F21A3286E006E81C7 /* NSDateComponents-WIFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents-WIFoundation.h"; sourceTree = "<group>"; };
 		4CE9F16021A3286E006E81C7 /* WIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIMacros.h; sourceTree = "<group>"; };
 		4CE9F16221A3286E006E81C7 /* NSFileManager-WIFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager-WIFoundation.h"; sourceTree = "<group>"; };
-		4CE9F16321A3286E006E81C7 /* WiredFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WiredFoundation.h; path = ../../WiredFrameworks/WiredFoundation/WiredFoundation.h; sourceTree = "<group>"; };
 		4CE9F16421A3286E006E81C7 /* NSLocale-WIFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale-WIFoundation.m"; sourceTree = "<group>"; };
 		4CE9F16521A3286E006E81C7 /* NSDate-WIFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-WIFoundation.m"; sourceTree = "<group>"; };
 		4CE9F16621A3286E006E81C7 /* NSLocale-WIFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale-WIFoundation.h"; sourceTree = "<group>"; };
@@ -123,7 +122,7 @@
 		4CE9F18621A32870006E81C7 /* WISettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISettings.m; sourceTree = "<group>"; };
 		4CE9F18721A32871006E81C7 /* NSArray-WIFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-WIFoundation.h"; sourceTree = "<group>"; };
 		4CE9F18821A32871006E81C7 /* WIDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIDateFormatter.m; sourceTree = "<group>"; };
-		4CE9F18921A32871006E81C7 /* wiredfoundation.doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wiredfoundation.doxyfile; sourceTree = "<group>"; };
+		4CE9F18921A32871006E81C7 /* wiredfoundation.doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wiredfoundation.doxyfile; path = ../wiredfoundation.doxyfile; sourceTree = "<group>"; };
 		4CE9F18A21A32871006E81C7 /* NSThread-WIFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread-WIFoundation.h"; sourceTree = "<group>"; };
 		4CE9F18C21A32871006E81C7 /* RegexKitLite-WIFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RegexKitLite-WIFoundation.m"; sourceTree = "<group>"; };
 		4CE9F18D21A32871006E81C7 /* NSError-WIFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError-WIFoundation.m"; sourceTree = "<group>"; };
@@ -148,6 +147,8 @@
 		4CE9F1E821A32941006E81C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CE9F1EA21A3294C006E81C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4CE9F1EC21A32972006E81C7 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4CE9F1F621A32F35006E81C7 /* WiredFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WiredFoundation.h; path = ../../WiredFrameworks/WiredFoundation/WiredFoundation.h; sourceTree = "<group>"; };
+		4CE9F1F721A32F90006E81C7 /* WiredFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WiredFoundation.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B391F0BEA661BB43FC189F1D /* Pods-WiredFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiredFoundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiredFoundation/Pods-WiredFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		C664552CFA94EE4338A7516D /* Pods_WiredFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiredFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F8524D45F20FAF0372EA39 /* Pods-WiredFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiredFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiredFoundation/Pods-WiredFoundation.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,9 +197,57 @@
 		4CE9F14C21A32843006E81C7 /* WiredFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				4CE9F1F521A32F25006E81C7 /* Sources */,
 				4CE9F1DF21A328EA006E81C7 /* Localizable.strings */,
 				4CE9F18921A32871006E81C7 /* wiredfoundation.doxyfile */,
+				4CE9F1F721A32F90006E81C7 /* WiredFoundation.podspec */,
+				4CE9F14E21A32843006E81C7 /* Info.plist */,
+			);
+			path = WiredFoundation;
+			sourceTree = "<group>";
+		};
+		4CE9F1E721A32941006E81C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CE9F1EC21A32972006E81C7 /* libicucore.tbd */,
+				4CE9F1EA21A3294C006E81C7 /* Cocoa.framework */,
+				4CE9F1E821A32941006E81C7 /* Foundation.framework */,
+				C664552CFA94EE4338A7516D /* Pods_WiredFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE9F1F521A32F25006E81C7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4CE9F15E21A3286E006E81C7 /* WiredFoundation-Prefix.pch */,
 				4CE9F14D21A32843006E81C7 /* WiredFoundation.h */,
+				4CE9F18421A32870006E81C7 /* NSString-WIFoundation.m */,
+				4CE9F18A21A32871006E81C7 /* NSThread-WIFoundation.h */,
+				4CE9F17221A3286F006E81C7 /* NSThread-WIFoundation.m */,
+				4CE9F16A21A3286E006E81C7 /* RegexKitLite-WIFoundation.h */,
+				4CE9F18C21A32871006E81C7 /* RegexKitLite-WIFoundation.m */,
+				4CE9F15621A3286D006E81C7 /* WIDateFormatter.h */,
+				4CE9F18821A32871006E81C7 /* WIDateFormatter.m */,
+				4CE9F17121A3286F006E81C7 /* WIEventQueue.h */,
+				4CE9F18221A32870006E81C7 /* WIEventQueue.m */,
+				4CE9F16021A3286E006E81C7 /* WIMacros.h */,
+				4CE9F15D21A3286D006E81C7 /* WIObject.h */,
+				4CE9F15721A3286D006E81C7 /* WIObject.m */,
+				4CE9F18E21A32871006E81C7 /* WIReadWriteLock.h */,
+				4CE9F18321A32870006E81C7 /* WIReadWriteLock.m */,
+				4CE9F18F21A32871006E81C7 /* WISettings.h */,
+				4CE9F18621A32870006E81C7 /* WISettings.m */,
+				4CE9F15521A3286D006E81C7 /* WISizeFormatter.h */,
+				4CE9F18021A32870006E81C7 /* WISizeFormatter.m */,
+				4CE9F18521A32870006E81C7 /* WITextFilter.h */,
+				4CE9F17521A3286F006E81C7 /* WITextFilter.m */,
+				4CE9F19721A32872006E81C7 /* WITimeIntervalFormatter.h */,
+				4CE9F17D21A32870006E81C7 /* WITimeIntervalFormatter.m */,
+				4CE9F19021A32871006E81C7 /* WITypes.h */,
+				4CE9F17B21A3286F006E81C7 /* WIURL.h */,
+				4CE9F17321A3286F006E81C7 /* WIURL.m */,
+				4CE9F1F621A32F35006E81C7 /* WiredFoundation.h */,
 				4CE9F18721A32871006E81C7 /* NSArray-WIFoundation.h */,
 				4CE9F17921A3286F006E81C7 /* NSArray-WIFoundation.m */,
 				4CE9F19921A32872006E81C7 /* NSData-WIFoundation.h */,
@@ -232,47 +281,8 @@
 				4CE9F19521A32872006E81C7 /* NSSet-WIFoundation.h */,
 				4CE9F17E21A32870006E81C7 /* NSSet-WIFoundation.m */,
 				4CE9F18121A32870006E81C7 /* NSString-WIFoundation.h */,
-				4CE9F18421A32870006E81C7 /* NSString-WIFoundation.m */,
-				4CE9F18A21A32871006E81C7 /* NSThread-WIFoundation.h */,
-				4CE9F17221A3286F006E81C7 /* NSThread-WIFoundation.m */,
-				4CE9F16A21A3286E006E81C7 /* RegexKitLite-WIFoundation.h */,
-				4CE9F18C21A32871006E81C7 /* RegexKitLite-WIFoundation.m */,
-				4CE9F15621A3286D006E81C7 /* WIDateFormatter.h */,
-				4CE9F18821A32871006E81C7 /* WIDateFormatter.m */,
-				4CE9F17121A3286F006E81C7 /* WIEventQueue.h */,
-				4CE9F18221A32870006E81C7 /* WIEventQueue.m */,
-				4CE9F16021A3286E006E81C7 /* WIMacros.h */,
-				4CE9F15D21A3286D006E81C7 /* WIObject.h */,
-				4CE9F15721A3286D006E81C7 /* WIObject.m */,
-				4CE9F18E21A32871006E81C7 /* WIReadWriteLock.h */,
-				4CE9F18321A32870006E81C7 /* WIReadWriteLock.m */,
-				4CE9F15E21A3286E006E81C7 /* WiredFoundation-Prefix.pch */,
-				4CE9F16321A3286E006E81C7 /* WiredFoundation.h */,
-				4CE9F18F21A32871006E81C7 /* WISettings.h */,
-				4CE9F18621A32870006E81C7 /* WISettings.m */,
-				4CE9F15521A3286D006E81C7 /* WISizeFormatter.h */,
-				4CE9F18021A32870006E81C7 /* WISizeFormatter.m */,
-				4CE9F18521A32870006E81C7 /* WITextFilter.h */,
-				4CE9F17521A3286F006E81C7 /* WITextFilter.m */,
-				4CE9F19721A32872006E81C7 /* WITimeIntervalFormatter.h */,
-				4CE9F17D21A32870006E81C7 /* WITimeIntervalFormatter.m */,
-				4CE9F19021A32871006E81C7 /* WITypes.h */,
-				4CE9F17B21A3286F006E81C7 /* WIURL.h */,
-				4CE9F17321A3286F006E81C7 /* WIURL.m */,
-				4CE9F14E21A32843006E81C7 /* Info.plist */,
 			);
-			path = WiredFoundation;
-			sourceTree = "<group>";
-		};
-		4CE9F1E721A32941006E81C7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4CE9F1EC21A32972006E81C7 /* libicucore.tbd */,
-				4CE9F1EA21A3294C006E81C7 /* Cocoa.framework */,
-				4CE9F1E821A32941006E81C7 /* Foundation.framework */,
-				C664552CFA94EE4338A7516D /* Pods_WiredFoundation.framework */,
-			);
-			name = Frameworks;
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +310,6 @@
 				4CE9F1C021A32872006E81C7 /* WIURL.h in Headers */,
 				4CE9F1B921A32872006E81C7 /* NSProcessInfo-WIFoundation.h in Headers */,
 				4CE9F1D521A32872006E81C7 /* WITypes.h in Headers */,
-				4CE9F1A821A32872006E81C7 /* WiredFoundation.h in Headers */,
 				4CE9F1AB21A32872006E81C7 /* NSLocale-WIFoundation.h in Headers */,
 				4CE9F1D921A32872006E81C7 /* NSDictionary-WIFoundation.h in Headers */,
 				4CE9F1CA21A32872006E81C7 /* WITextFilter.h in Headers */,
@@ -381,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE9F1F821A32F90006E81C7 /* WiredFoundation.podspec in Resources */,
 				4CE9F1E121A328EA006E81C7 /* Localizable.strings in Resources */,
 				4CE9F1CE21A32872006E81C7 /* wiredfoundation.doxyfile in Resources */,
 			);
